@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fraud-detection-deployment
+spec:
+  replicas: 3  # Set the desired number of replicas
+  selector:
+    matchLabels:
+      app: fraud-detection
+  template:
+    metadata:
+      labels:
+        app: fraud-detection
+    spec:
+      containers:
+      - name: FraudDetection
+        image: registry/DockerImage:1.0 
