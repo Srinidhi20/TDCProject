@@ -2,20 +2,20 @@
 
 ### Tools to install 
 
-1. _**Turn on hyperv**  _
+1. **Turn on hyperv**  
         Open the "Control Panel", Go to "Programs" and then "Turn Windows features on or off"  
         Find and check "Hyper-V.", Restart your computer.
 
-2._ **Install Docker Desktop**_
+2. **Install Docker Desktop**  
         Download and install Docker Desktop from the official Docker website.
 
-3. _**Install kubernetes** _
+3. **Install kubernetes**  
         Install Kubernetes on Docker Desktop by enabling the feature in Docker Desktop settings.
 
-4. _**Install Minikube** _  
+4. **Install Minikube**  
         Install Minikube by downloading the installer from the official Minikube website and following the installation instructions.
 
-5._ **Install kubectl**_   
+5. **Install kubectl**   
         Install kubectl, the Kubernetes command-line tool, by downloading and adding it to your system's PATH.
 
 
