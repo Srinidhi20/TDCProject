@@ -1,21 +1,21 @@
-# Fraud Detection classification with Kubernetes files for deployment
+# Financial Fraud Detection using Kubernetes
 
-### Tools to install 
+### Tools
 
-1. **Turn on hyperv**  
-        Open the "Control Panel", Go to "Programs" and then "Turn Windows features on or off"  
-        Find and check "Hyper-V.", Restart your computer.
+1. **_Turn on hyperv_**  
+        Open "Control Panel", Go to "Programs" and then "Turn Windows features on or off"  
+        Find and check "Hyper-V", Restart your computer.
 
-2. **Install Docker Desktop**  
+2. **_Install Docker Desktop_**  
         Download and install Docker Desktop from the official Docker website.
 
-3. **Install kubernetes**  
+3. **_Install kubernetes_**  
         Install Kubernetes on Docker Desktop by enabling the feature in Docker Desktop settings.
 
-4. **Install Minikube**  
+4. **_Install Minikube_**  
         Install Minikube by downloading the installer from the official Minikube website and following the installation instructions.
 
-5. **Install kubectl**   
+5. **_Install kubectl_**   
         Install kubectl, the Kubernetes command-line tool, by downloading and adding it to your system's PATH.
 
 
